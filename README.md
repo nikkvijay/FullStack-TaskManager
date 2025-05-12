@@ -43,7 +43,7 @@ This is a full-stack task management application designed to help users organize
 ```
 server
 ├── cmd
-│   └── task-manager
+│   └── server
 │       └── main.go          # Entry point of the application
 ├── config                    # Configuration files
 ├── internal                  # Internal packages
@@ -91,8 +91,8 @@ client
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repo/task-manager.git
-   cd task-manager
+   git clone https://github.com/nikkvijay/FullStack-TaskManager.git
+   cd FullStack-TaskManager
    ```
 2. **Set up the backend**:
    - Install Go dependencies:
@@ -115,7 +115,7 @@ client
    - Start the backend server:
      ```bash
      cd server
-     go run cmd/task-manager/main.go
+     go run cmd/server/main.go
      ```
    - In a new terminal, start the frontend development server:
      ```bash
@@ -185,7 +185,3 @@ We welcome contributions! Please follow these steps:
 ## License
 This project is licensed under the MIT License.
 
-## Contact / Author Info
-- **Author**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: your-github-profile
