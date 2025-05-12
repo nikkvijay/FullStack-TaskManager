@@ -1,0 +1,40 @@
+```
+└── 📁server
+    └── 📁cmd
+        └── 📁api
+            └── main.go
+        └── 📁migrate
+            └── main.go
+        └── 📁server
+            └── main.go
+    └── 📁internal
+        └── 📁config
+            └── config.go
+        └── 📁controllers
+            └── error_handler.go
+            └── task_handler.go
+        └── 📁db
+            └── db.go
+        └── 📁errors
+            └── errors.go
+        └── 📁logging
+            └── logger.go
+        └── 📁models
+            └── task.go
+        └── 📁repository
+            └── task_repository.go
+        └── 📁routes
+            └── routes.go
+        └── 📁service
+            └── task_service.go
+        └── 📁validator
+            └── validator.go
+    └── 📁migrations
+        └── 001_create_tasks_table.sql
+        └── 20250512_consolidate_tasks_table.sql
+        └── migrate.go
+    └── .env
+    └── .gitignore
+    └── go.mod
+    └── go.sum
+```
